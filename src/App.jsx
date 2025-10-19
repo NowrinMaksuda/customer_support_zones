@@ -10,7 +10,7 @@ function App() {
   const [progress, setProgress] = useState(0)
   const [resolve, setResolve] = useState(0)
   const [selectTitle, setSelectTitle] = useState([])
-  const [resolveTasks, setResolveTask] = useState([])
+  const [resolveTasks, setResolveTask] = useeState([])
   const [tickets, setTickets] = useState([]);
   useEffect(() => {
     fetch('../Data.json')
