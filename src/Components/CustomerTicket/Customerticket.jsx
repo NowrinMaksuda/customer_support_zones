@@ -8,7 +8,7 @@ const Customerticket = ({
   setSelectTitle,
   selectTitle,
   resolveTasks,
-  setResolveTask,
+  SetResolveTask,
   resolve,
   setResolve,
   tickets,
