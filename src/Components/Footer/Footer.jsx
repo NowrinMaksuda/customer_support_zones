@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </footer>
       <p className="text-[#A1A1AA] text-[18px] text-center my-4">
-        © 2025 CS — Ticket System. All rights reserved.
+        © 2025 cs — Ticket System. All rights reserved.
       </p>
     </div>
   );
