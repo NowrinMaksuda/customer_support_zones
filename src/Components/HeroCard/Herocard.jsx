@@ -25,7 +25,7 @@ const Herocard = ({ progress, resolve}) => {
             backgroundPosition: 'center',
           }}
         >
-          <h2 className="text-white text-2xl">Resolved</h2>
+         <h2 className="text-white text-2xl">Resolved</h2>
           <h3 className="text-white text-6xl font-semibold">{resolve}</h3>
         </div>
       </div>
